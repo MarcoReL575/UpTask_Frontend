@@ -9,7 +9,6 @@ import { toast } from "react-toastify";
 export default function ConfirmAccountView() {
 
   const [token, setToken] = useState<ConfirmTken['token']>('')
-
   const { mutate } = useMutation({
     mutationFn: confirmAccount,
     onError: (error) => {
@@ -20,7 +19,7 @@ export default function ConfirmAccountView() {
     }
   })
 
-  const handleChange = (token: ConfirmTken['token'])=> {
+  const handleChange= (token: ConfirmTken['token'])=> {
     setToken(token)
   }
 
