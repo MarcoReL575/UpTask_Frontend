@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Plugins */
+@plugin '@tailwindcss/forms';
+
+@theme{
+    --color-olivine-50: #f3f8f1;
+    --color-olivine-100: #e4edde;
+    --color-olivine-200: #c9dbbf;
+    --color-olivine-300: #93b785;
+    --color-olivine-400: #75a067;
+    --color-olivine-500: #538346;
+    --color-olivine-600: #3e6833;
+    --color-olivine-700: #305329;
+    --color-olivine-800: #274322;
+    --color-olivine-900: #21371d;
+    --color-olivine-950: #111f0f;
+}
